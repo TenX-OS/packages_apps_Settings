@@ -141,5 +141,8 @@
 
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     
 </resources>
