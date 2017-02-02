@@ -244,4 +244,7 @@ public class Settings extends SettingsActivity {
     public static class TenXSettingsActivity extends SettingsActivity {}
 
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
+
+    // Custom additions
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
