@@ -240,4 +240,7 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // Ten-X Additions.
+    public static class TenXSettingsActivity extends SettingsActivity {}
+
 }
