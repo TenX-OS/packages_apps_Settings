@@ -131,5 +131,8 @@
     <!-- Permissions hub toggle -->
     <string name="show_permissions_hub">Show permissions hub</string>
     <string name="show_permissions_hub_summary">Display privacy indicators in QS</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     
 </resources>
