@@ -161,6 +161,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.tenx.settings.TenXSettings;
+import com.tenx.settings.fragments.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -312,6 +313,7 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             // Ten-X Additions
             TenXSettings.class.getName(),
+            OmniJawsSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -353,5 +355,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // Ten-X Additions
             Settings.TenXSettingsActivity.class.getName(),
+            Settings.OmniJawsSettingsActivity.class.getName()
     };
 }
