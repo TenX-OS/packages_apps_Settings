@@ -161,6 +161,13 @@
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
         settings:controller="com.android.settings.display.FontSizePreferenceController" />
+        
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
