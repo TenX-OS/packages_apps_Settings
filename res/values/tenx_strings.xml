@@ -240,5 +240,9 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 
 </resources>
