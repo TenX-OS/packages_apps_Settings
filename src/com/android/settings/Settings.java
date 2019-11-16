@@ -247,4 +247,8 @@ public class Settings extends SettingsActivity {
 
     // Custom additions
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    // Gaming Mode
+    public static class GamingModeActivity extends SettingsActivity {}
+
 }
