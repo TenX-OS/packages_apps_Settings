@@ -40,5 +40,9 @@
     <string name="navbar_length">Gesture bar length</string> 
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
+
+    <!-- TenX-OS maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="maintainer_name">Your local GitHub Retard</string>
     
 </resources>
