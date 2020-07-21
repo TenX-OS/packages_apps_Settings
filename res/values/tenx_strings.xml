@@ -123,5 +123,9 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access alerts</string>
+    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
     
 </resources>
