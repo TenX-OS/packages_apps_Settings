@@ -34,10 +34,7 @@ android_library {
     aaptflags: ["--extra-packages com.tenx.settings"],
 
     resource_dirs: ["res",
-                    "TenX/res"
-    ],
-
-    resource_dirs: ["res",
+                    "TenX/res",
                     "TouchGestures/res"
     ],
 
