@@ -53,6 +53,7 @@ import java.util.List;
 import java.util.UUID;
 
 import com.android.settings.custom.preference.CustomDialogPreference;
+import com.tenx.support.preferences.SystemSettingSwitchPreference;
 
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -86,11 +87,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mAssistLongPressAction;
     private ListPreference mAppSwitchPressAction;
     private ListPreference mAppSwitchLongPressAction;
-    private SwitchPreference mCameraWakeScreen;
-    private SwitchPreference mCameraSleepOnRelease;
-    private SwitchPreference mCameraLaunch;
-    private SwitchPreference mDisableNavigationKeys;
-    private SwitchPreference mSwapCapacitiveKeys;
+    private SystemSettingSwitchPreference mCameraWakeScreen;
+    private SystemSettingSwitchPreference mCameraSleepOnRelease;
+    private SystemSettingSwitchPreference mCameraLaunch;
+    private SystemSettingSwitchPreference mDisableNavigationKeys;
+    private SystemSettingSwitchPreference mSwapCapacitiveKeys;
 
     private Handler mHandler;
 
