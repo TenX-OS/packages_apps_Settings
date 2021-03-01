@@ -4664,7 +4664,7 @@
 
     <!-- Languages Settings --> <skip />
     <!-- Title of Language, input & gestures setting on main settings screen. -->
-    <string name="language_input_gesture_title">Languages, input &amp; gestures</string>
+    <string name="language_input_gesture_title">Languages &amp; input</string>
     <!-- Summary of Language, input & gestures setting on main settings screen when both gesture setting and assistant feature is on. -->
     <string name="language_input_gesture_summary_on_with_assist"></string>
     <!-- Summary of Language, input & gestures setting on main settings screen when both gesture setting and non-assistant feature is on. -->
