@@ -28,7 +28,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
+import com.android.settingslib.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -74,7 +74,7 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
         mSmartChargingResumeLevel.setValue(currentResumeLevel);
         mSmartChargingResumeLevel.setOnPreferenceChangeListener(this);
 
-        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.smart_charging_footer);
+        // mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.smart_charging_footer);
     }
 
     @Override
