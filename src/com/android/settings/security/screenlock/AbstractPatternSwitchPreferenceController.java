@@ -20,12 +20,11 @@ import android.app.admin.DevicePolicyManager;
 import android.content.Context;
 
 import androidx.preference.Preference;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
-
-import com.tenx.support.preferences.SwitchPreference;
 
 public abstract class AbstractPatternSwitchPreferenceController
         extends AbstractPreferenceController
