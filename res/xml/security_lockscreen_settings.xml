@@ -92,10 +92,6 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
-        <Preference
-            android:key="ambient_display_custom"
-            android:title="@string/advanced_settings" />
-
         <SwitchPreference
             android:key="ambient_wake_gestures"
             android:title="@string/ambient_wake_gestures_title"
