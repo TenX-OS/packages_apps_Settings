@@ -180,7 +180,7 @@ public class ConditionManager {
         public ContextualCard call() throws Exception {
             return (mController.isDisplayable()
                     && (Settings.System.getInt(mContext.getContentResolver(),
-                       Settings.System.SETTINGS_SHOW_CONDITIONS, 1) == 1)) ? mController.buildContextualCard() : null;
+                       Settings.System.SETTINGS_SHOW_CONDITIONS, 0) == 1)) ? mController.buildContextualCard() : null;
         }
     }
 }
