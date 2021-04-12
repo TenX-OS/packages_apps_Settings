@@ -238,7 +238,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         if (Utils.isBatteryPresent(getContext())) {
             restartBatteryInfoLoader();
         }
-
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
     }
