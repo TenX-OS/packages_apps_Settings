@@ -42,7 +42,7 @@ public class TenXInfoPreferenceController extends AbstractPreferenceController {
     }
 
     private String getDeviceName() {
-        String device = SystemProperties.get(PROP_TENX_DEVICE, "");
+        String device = SystemProperties.get(PROP_TENX_DEVICE_CODENAME, "");
         if (device.equals("")) {
             device = Build.MANUFACTURER;
         }
@@ -50,7 +50,7 @@ public class TenXInfoPreferenceController extends AbstractPreferenceController {
     }
 
     private String getDeviceCodename() {
-        String deviceCodename = SystemProperties.get(PROP_TENX_DEVICE_CODENAME, "");
+        String deviceCodename = SystemProperties.get(PROP_TENX_DEVICE, "");
         if (deviceCodename.equals("")) {
             deviceCodename = Build.MODEL;
         }
