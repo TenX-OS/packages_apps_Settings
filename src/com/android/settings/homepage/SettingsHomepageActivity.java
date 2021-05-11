@@ -27,6 +27,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -55,6 +56,7 @@ public class SettingsHomepageActivity extends FragmentActivity {
     UserManager mUserManager;
 
     boolean mShowAccountAvatar;
+    boolean mShowSuggestions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,9 +96,13 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
 
-        if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
-            // Only allow contextual feature on high ram devices.
-            showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
+        mShowSuggestions = Settings.System.getInt(context.getContentResolver(),
+                Settings.System.SETTINGS_SHOW_SUGGESTIONS, 1) == 1;
+        if (mShowSuggestions) {
+            if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
+                // Only allow contextual feature on high ram devices.
+                showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
+            }
         }
         showFragment(new TopLevelSettings(), R.id.main_content);
         ((FrameLayout) findViewById(R.id.main_content))
