@@ -46,6 +46,10 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
+    <com.android.settings.ui.TopLevelPreferenceDivider
+        android:key="top_level_divider_one"
+        android:order="-105"/>
+
     <Preference
         android:key="top_level_apps_and_notifs"
         android:title="@string/app_and_notification_dashboard_title"
@@ -72,6 +76,10 @@
         android:fragment="com.android.settings.DisplaySettings"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
+    <com.android.settings.ui.TopLevelPreferenceDivider
+        android:key="top_level_divider_two"
+        android:order="-75"/>
+
     <Preference
         android:key="top_level_sound"
         android:title="@string/sound_settings"
@@ -96,6 +104,10 @@
         android:icon="@drawable/ic_settings_privacy_tenx_accent"
         android:order="-55"
         android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"/>
+
+    <com.android.settings.ui.TopLevelPreferenceDivider
+        android:key="top_level_divider_three"
+        android:order="-50"/>
 
     <Preference
         android:key="top_level_location"
@@ -133,6 +145,10 @@
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
+    <com.android.settings.ui.TopLevelPreferenceDivider
+        android:key="top_level_divider_four"
+        android:order="-15"/>
+
     <Preference
         android:key="top_level_system"
         android:title="@string/header_category_system"
@@ -149,6 +165,10 @@
         android:order="20"
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
+
+    <com.android.settings.ui.TopLevelPreferenceDivider
+        android:key="top_level_divider_five"
+        android:order="15"/>
 
     <Preference
         android:key="top_level_support"
