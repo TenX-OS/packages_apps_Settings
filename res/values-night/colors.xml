@@ -41,7 +41,7 @@
     <color name="gestures_setting_background_color">@android:color/black</color>
 
     <!-- Custom colors -->
-    <color name="card_view_bg">#1B1B1B</color>
+    <color name="card_view_bg">#ff202124</color>
     <color name="black">#FAFAFA</color>
     <color name="off_black">#90FAFAFA</color>
     <color name="tl_preference_divider_bg">#ff202124</color>
