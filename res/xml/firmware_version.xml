@@ -56,7 +56,8 @@
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/maintainer_name"
-        settings:enableCopying="true">
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.TenXMaintainerPreferenceController">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="@string/maintainer_telegram_username" />
